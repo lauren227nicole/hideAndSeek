@@ -13,6 +13,10 @@ import model.Player;
  */
 public class HideAndSeek {
 
+    
+    public static void laurenTest(){
+    
+    }
     /**
      * @param args the command line arguments
      */
@@ -24,6 +28,8 @@ public class HideAndSeek {
 
        String playerInfo = username.toString();
        System.out.println(playerInfo);
+       
+       laurenTest();
     }
     
 }
