@@ -6,24 +6,37 @@
 package hideandseek;
 
 import model.Player;
+import model.Tool;
 
 /**
  *
  * @author Lauren
  */
 public class HideAndSeek {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        Player username = new Player();
+    public static void teamTest(){
+       Player username = new Player();
     
        username.setUsername("Hirendira");
 
        String playerInfo = username.toString();
-       System.out.println(playerInfo);
+       System.out.println(playerInfo); 
+    }
+    
+    public static void irhenTest(){
+            Tool hammer = new Tool();
+            hammer.setName("Hammer");
+            hammer.setType("toolbox");
+            String toolInfo = hammer.toString();
+            System.out.println(toolInfo);
+            
+            
+    }
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+            teamTest();
+            irhenTest();
     }
     
 }
