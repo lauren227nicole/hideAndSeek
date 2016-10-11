@@ -42,11 +42,8 @@ public class Bomb {
             return false;
         }
         final Bomb other = (Bomb) obj;
-        if (!Objects.equals(this.location, other.location)) {
-            return false;
-        }
-        return true;
+        return Objects.equals(this.location, other.location);
+  
     }
-    
     
 }
