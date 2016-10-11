@@ -99,6 +99,11 @@ public class Scene {
         }
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "Scene{" + "name=" + name + ", description=" + description + ", actor=" + actor + ", bomb=" + bomb + ", category=" + category + '}';
+    }
     
     
     

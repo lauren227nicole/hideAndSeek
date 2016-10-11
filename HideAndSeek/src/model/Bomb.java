@@ -45,5 +45,10 @@ public class Bomb {
         return Objects.equals(this.location, other.location);
   
     }
+
+    @Override
+    public String toString() {
+        return "Bomb{" + "location=" + location + '}';
+    }
     
 }

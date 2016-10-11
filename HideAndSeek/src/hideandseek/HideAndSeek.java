@@ -5,6 +5,7 @@
  */
 package hideandseek;
 
+import model.Bomb;
 import model.Player;
 import model.Tool;
 

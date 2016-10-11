@@ -73,6 +73,11 @@ public class Ability {
         }
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "Ability{" + "type=" + type + ", name=" + name + ", category=" + category + '}';
+    }
     
     
 }
