@@ -5,13 +5,14 @@
  */
 package model;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 /**
  *
  * @author fairy_000
  */
-public class Actor {
+public class Actor implements Serializable{
     
     private String type;
     private String actorName;
