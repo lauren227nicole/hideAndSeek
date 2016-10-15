@@ -5,13 +5,14 @@
  */
 package model;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 /**
  *
  * @author fairy_000
  */
-public class Tool {
+public class Tool implements Serializable {
     
     private String type;
     private String name;

@@ -5,13 +5,14 @@
  */
 package model;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 /**
  *
  * @author fairy_000
  */
-public class Game {
+public class Game implements Serializable {
     private String player;
 
     public String getPlayer() {
