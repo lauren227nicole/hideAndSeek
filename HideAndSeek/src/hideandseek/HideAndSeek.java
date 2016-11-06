@@ -5,10 +5,11 @@
  */
 package hideandseek;
 
+import static hideandseek.HideAndSeek.StartProgramView;
 import model.Bomb;
 import model.Player;
 import model.Tool;
-
+import model.StartProgramView;
 /**
  *
  * @author Lauren
@@ -43,6 +44,10 @@ public class HideAndSeek {
         System.out.println(toolInfo);
     }
 
+    public static void StartProgramView() {
+        System.out.println("test");
+    }
+    
     /**
      * @param args the command line arguments
      */
@@ -50,6 +55,7 @@ public class HideAndSeek {
         teamTest();
         irhenTest();
         laurenTest();
+        StartProgramView();
     }
 
 }
